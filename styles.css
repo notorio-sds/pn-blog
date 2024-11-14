@@ -1,15 +1,17 @@
-.main-title {
-    font-size: 50px;
+body {
+    border: 2px solid orange;
+    max-width: 650px;
 }
 
-.titles {
+.head-title {
     color: lightcoral;
 }
 
-ol li {
-    font-size: 20px;
+ul {
+    list-style: none;
 }
 
 li a {
+    font-size: 25px;
     text-decoration: none;
 }
