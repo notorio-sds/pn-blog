@@ -1,17 +1,30 @@
-body {
-    border: 2px solid orange;
-    max-width: 650px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.head-title {
-    color: lightcoral;
+.header-container {
+    color: white;
+    background-color: lightcoral;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
 }
 
-ul {
-    list-style: none;
+.menu {
+
+    width: 750px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
 }
 
-li a {
-    font-size: 25px;
-    text-decoration: none;
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
 }
