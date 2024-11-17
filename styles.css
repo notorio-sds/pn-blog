@@ -12,9 +12,13 @@
     justify-content: center;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
 .menu {
 
-    width: 750px;
     display: flex;
     justify-content: space-around;
     border: 2px solid black;
@@ -31,4 +35,26 @@
 
 .body {
     background-color: lightblue;
+}
+
+/* Columns */
+
+.body {
+    display: flex;
+    border: 2px solid black;
+    height: 1000px;
+    flex: 1;
+}
+
+.col-1 {
+    width: 200px;
+    border: 2px solid red;
+}
+
+.col-2 {
+    border: 2px solid teal;
+}
+
+.footer {
+    border: 2px solid gray;
 }
