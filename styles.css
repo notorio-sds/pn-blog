@@ -42,8 +42,7 @@
 .body {
     display: flex;
     border: 2px solid black;
-    height: 1000px;
-    flex: 1;
+    height: 1150px;
 }
 
 .col-1 {
@@ -57,4 +56,7 @@
 
 .footer {
     border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
